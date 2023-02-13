@@ -1,0 +1,78 @@
+ul{
+  list-style: none;
+}
+.fullPage{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.uppercontainer{
+  display: flex;
+}
+.sidelogo{
+width: 13%;
+display: flex;
+justify-content: center;
+}
+
+
+.logoImage{
+  width: 39px;
+  color: white;
+}
+.navbarrightSideIcons > div{
+  margin-right: 22px;
+  color: white;
+}
+
+/* .notificationtab{
+  display: absolute;
+  border: 2px solid black;
+}  */
+.mainFull{
+  padding: 1rem;
+}
+.leftside{
+  margin: 0 auto;
+  width: calc(100vw - 200px);
+}
+
+#style-2::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	background-color: #F5F5F5;
+}
+
+#style-2::-webkit-scrollbar
+{
+	width: 4px;
+	background-color: #fffdfd;
+}
+
+#style-2::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #0d6efd!important;
+}
+.force-overflow
+{
+	min-height: 450px;
+}
+.fontWeightofHeadings{
+  font-weight: bolder;
+    font-family: cursive;
+    font-size: 94Px;
+}
+.SearchList{
+  position: absolute;
+  background: ghostwhite;
+  width: 31%;
+  max-height: 140px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  z-index: 1;
+  top: 109px;
+  border: 1px solid black;
+}
